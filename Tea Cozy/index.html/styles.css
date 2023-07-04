@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.98;
+    
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+li, a {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+h2, h3, h4, p {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 22px;
+    line-height: 2;
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    background-color: black;
+}
+nav {
+    float: right;
+    text-align: right; 
+}
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-right: auto;
+    cursor: pointer;
+}
+.nav-bar {
+    list-style: none;
+}
+.nav-bar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.our-mission-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.mission-box {
+    display: flex;
+    align-items: center;
+}
+.totm {
+    padding: 10px;
+}
+h2.mission-text {
+    display: flex;
+    justify-content: center;
+}
+h4.mission-text {
+    display: flex;
+    justify-content: center;
+}
+.black-bar {
+    background-color: black;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+}
+.featured-tea-box {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 0px;
+}
+.featured-tea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tea-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fall-berry {
+    margin: 10px;
+}
+.spiced-rum {
+    margin: 10px;
+}
+.seasonal-donut {
+    margin: 10px;
+}
+.myrtle-ave {
+    margin: 10px;
+}
+.bedford-bizarre {
+    margin: 10px;
+}
+.locations-text {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    width: 300px;
+    opacity: 1;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+}
+.location-header {
+    padding: 15px;
+}
+.locations-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.locations-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.location-spots {
+    display: flex;
+}
+.location-options {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.location-black-box {
+    display: flex;
+    width: 300px;
+    opacity: 1;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+}
+.contact-box {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+}
+.contact-name {
+    margin: 5px 0px 30px;
+}
+.contact-number {
+    margin: 30px 0px 0px;
+}
+.copyright {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: black;
+}
