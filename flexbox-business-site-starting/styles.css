@@ -1,0 +1,39 @@
+html{
+    font-size: 16px;
+}
+
+body{}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo{
+    text-transform: capitalize;
+    margin: 0rem 2rem;
+    font-family: quicksand;
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+li{
+    margin: 0rem 2rem;
+    border: solid 1px;
+    padding: .3125rem .3125rem;
+    font-family: quicksand;
+}
+
+.mission{}
+
+.photos{}
+
+.team{}
+
+.contact{}
+
