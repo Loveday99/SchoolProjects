@@ -1,22 +1,25 @@
-html{
+html {
     font-size: 16px;
+    background-color: gray;
+    color: #f5f5f5;
 }
 
-body{}
+body {
+}
 
-header{
+header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.logo{
+.logo {
     text-transform: capitalize;
     margin: 0rem 2rem;
     font-family: quicksand;
-    display: flex;
+    width: 3.125rem;
 }
-ul{
+.navbar {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -28,12 +31,46 @@ li{
     padding: .3125rem .3125rem;
     font-family: quicksand;
 }
+a:link {
+    border-color: black;
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: #08e8de;
+}
+a:hover {
+    color: #f5f5f5;
+}
+a:active {
+    border-color: black;
+    color: black;
+}
 
-.mission{}
+.mission {
+    display: flex;
+    height: auto;
+}
+.background {
+    height: auto;
+    display: flex;
+    align-self: auto;
+    z-index: 1;
+    position: relative;
+}
+.goal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 5rem;
+    z-index: 99;
+    position: absolute;
+}
 
-.photos{}
+.photos {}
 
-.team{}
+.team {}
 
-.contact{}
+.contact {}
 
