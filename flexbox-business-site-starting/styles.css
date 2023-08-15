@@ -78,12 +78,25 @@ a:active {
     background-color: #b1bbc0;
 }
 
-.photos {
+.photo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-
+.photo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0892d0;
+    font-size: 1.4rem;
+}
+.photo-box-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    color: #0892d0;
+    font-size: 1.4rem;  
+}
 .team {}
 
 .contact {}
