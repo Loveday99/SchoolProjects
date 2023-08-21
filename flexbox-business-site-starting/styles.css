@@ -19,6 +19,7 @@ header {
     font-family: quicksand;
     width: 3.125rem;
     color: #0892d0;
+    font-size: 2rem;
 }
 .navbar {
     list-style: none;
@@ -76,12 +77,15 @@ a:active {
     font-size: 1.9rem;
     color: #0892d0;
     background-color: #b1bbc0;
+    border: .1rem solid #f5f5f5;
 }
 
 .photo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 .photo-box {
     display: flex;
@@ -89,6 +93,8 @@ a:active {
     align-items: center;
     color: #0892d0;
     font-size: 1.4rem;
+    border: .1rem solid #0892d0;
+    padding: .5rem;
 }
 .photo-box-2 {
     display: flex;
@@ -96,8 +102,39 @@ a:active {
     align-items: center;
     color: #0892d0;
     font-size: 1.4rem;  
+    border: .1rem solid #0892d0;
+    padding: .5rem;
 }
-.team {}
+.photos {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: .1rem solid #f5f5f5;
+    padding: .5rem;
+}
+.edit-photos {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: .1rem solid #f5f5f5;
+    padding: .5rem;
+}
+.videos {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: .1rem solid #f5f5f5;
+    padding: .5rem;
+}
+.edit-videos {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: .1rem solid #f5f5f5;
+    padding: .5rem;
+}
 
-.contact {}
+.team {
+
+}
+
+.contact {
+    
+}
 
