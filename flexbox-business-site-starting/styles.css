@@ -228,16 +228,46 @@ a:active {
 }
     .photo {
         display: flex;
-        
+        flex-direction: column;
+    }
+    .team {
+        border: none;
     }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
     .mission {
+        border: none;
         display: flex;
     }
     .goal {
         flex-wrap: wrap;
+    }
+    .photo-box {
+        margin: .5rem;
+    }
+    .photo-box-2 {
+        margin: .5rem;
+        flex-direction: column;
+    }
+    .team {
+        border: none;
+    }
+    .first {
+        display: flex;
+        flex-direction: column;
+    }
+    .second {
+        display: flex;
+        flex-direction: column;
+    }
+    .owner {
+        display: flex;
+        justify-content: center;
+    }
+    .support {
+        display: flex;
+        justify-content: center;
     }
 }
 
