@@ -69,10 +69,8 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
     z-index: 99;
     position: absolute;
-    width: 1403px;
     font-size: 1.9rem;
     color: #0892d0;
     background-color: #b1bbc0;
@@ -239,9 +237,14 @@ a:active {
     .mission {
         border: none;
         display: flex;
+        flex-direction: column;
     }
     .goal {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+    .background {
+        display: flex;
     }
     .photo-box {
         margin: .5rem;
@@ -272,7 +275,29 @@ a:active {
 }
 
 @media only screen and (min-width: 1025px) {
-    .photo {}
+    .photo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .photo-box {
+        margin: 5px;
+        flex-direction: column-reverse;
+    }
+    .photo-box-2 {
+        margin: 5px;
+        flex-direction: column-reverse;
+    }
+
+    .mission {
+        border: none;
+    }
+    .goal {
+        height: 5rem;
+        width: 1403px;
+    }
+    .background {
+        border: none;
+    }
 }
 
 
