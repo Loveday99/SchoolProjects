@@ -1,4 +1,7 @@
-html {}
+html {
+    background-color: black;
+
+}
 
 body {
 }
@@ -7,10 +10,24 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 .links {
     display: flex;
     text-transform: uppercase;
+    font-family: play, sans-serif;
+}
+a:hover, a:active {
+    color: #76adec;
+    background-color: #a802f8;
+}
+a:visited, a:link {
+    color: #76adec;
+    text-decoration: none;
+    border: 2px solid #a802f8;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10%;
 }
 .games {
     margin-right: 20px;
@@ -22,16 +39,39 @@ header {
 .contact {
     margin-left: 20px;
 }
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-family: tomorrow, sans-serif;
+    font-size: 40px;
+    color: #a802f8;
+    margin: 20px;
+}
+.main-img {
+    background-size: cover;
+    position: relative;
+    width: 1440px;
+}
 
 main {}
-#games {
 
+#games {
+    background-color: #a802f8;
+    padding: 30px 0px;
+    position: relative;
 }
 .row-1 {
-
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-evenly;
 }
 .row-2 {
-
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-evenly;
 }
 #option1 {
     border-radius: 50% 50% 50% 50%;
