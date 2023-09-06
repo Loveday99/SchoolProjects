@@ -43,12 +43,17 @@ a:visited, a:link {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
-.title {
+.title-name {
     font-family: tomorrow, sans-serif;
-    font-size: 40px;
+    font-size: 70px;
     color: #a802f8;
-    margin: 20px;
+    margin-bottom: 150px;
+    position: absolute;
+    z-index: 99;
+    
 }
 .main-img {
     background-size: cover;
@@ -61,17 +66,21 @@ main {}
 #games {
     background-color: #a802f8;
     padding: 30px 0px;
-    position: relative;
+    font-family: play;
+    text-transform: capitalize;
+    font-size: 25px;
 }
 .row-1 {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, 300px);
     justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 .row-2 {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, 300px);
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 #option1 {
     border-radius: 50% 50% 50% 50%;
@@ -80,12 +89,23 @@ main {}
     border: solid black 1px;
     background-size: cover;
 }
+.option-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #option2 {
     border-radius: 50% 50% 50% 50%;
     width: 150px;
     height: 150px;
     border: solid black 1px;
     background-size: cover;
+    display: flex;
+}
+.option-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #option3 {
     border-radius: 50% 50% 50% 50%;
@@ -93,6 +113,12 @@ main {}
     height: 150px;
     border: solid black 1px;
     background-size: cover;
+    display: flex;
+}
+.option-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #option4 {
     border-radius: 50% 50% 50% 50%;
@@ -100,6 +126,12 @@ main {}
     height: 150px;
     border: solid black 1px;
     background-size: cover;
+    display: flex;
+}
+.option-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #option5 {
     border-radius: 50% 50% 50% 50%;
@@ -107,6 +139,12 @@ main {}
     height: 150px;
     border: solid black 1px;
     background-size: cover;
+    display: flex;
+}
+.option-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #option6 {
     border-radius: 50% 50% 50% 50%;
@@ -114,6 +152,12 @@ main {}
     height: 150px;
     border: solid black 1px;
     background-size: cover;
+    display: flex;
+}
+.option-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #option7 {
     border-radius: 50% 50% 50% 50%;
@@ -121,6 +165,12 @@ main {}
     height: 150px;
     border: solid black 1px;
     background-size: cover;
+    display: flex;
+}
+.option-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #option8 {
     border-radius: 50% 50% 50% 50%;
@@ -128,6 +178,12 @@ main {}
     height: 150px;
     border: solid black 1px;
     background-size: cover;
+    display: flex;
+}
+.option-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {}
