@@ -17,22 +17,30 @@ header {
     text-transform: uppercase;
     font-family: play, sans-serif;
 }
-a:hover, a:active {
+a:active {
     color: #76adec;
     background-color: #a802f8;
 }
-a:visited, a:link {
+a:hover {
+    color: #76adec;
+    background-color: #a802f8;
+}
+a:visited {
+    color: #76adec;
+}
+a:link {
     color: #76adec;
     text-decoration: none;
     border: 2px solid #a802f8;
     padding: 10px 20px;
     display: inline-block;
     border-radius: 10%;
+    background-color: #000;
 }
 .games {
     margin-right: 20px;
 }
-.schedule {
+.info {
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -46,14 +54,17 @@ a:visited, a:link {
     justify-content: center;
     margin-top: 20px;
 }
-.title-1 {
+.title-name {
     font-family: tomorrow, sans-serif;
     font-size: 70px;
+}
+.title-1 {
+    font-family: "major mono display", sans-serif;
+    font-size: 65px;
     color: #a802f8;
-    margin-bottom: 150px;
+    margin-bottom: 290px;
     position: absolute;
     z-index: 99;
-    
 }
 .main-img {
     background-size: cover;
@@ -186,7 +197,7 @@ main {}
     align-items: center;
 }
 
-#schedule {
+#info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,7 +206,7 @@ main {}
     height: 1000px;
 }
 .title-2 {
-    font-family: tomorrow, sans-serif;
+    font-family: "major mono display", sans-serif;
     font-size: 70px;
     color: #76adec;
     margin-bottom: 150px;
@@ -203,11 +214,55 @@ main {}
     text-transform: uppercase;
 }
 
-.schedule-box {
+.info-box {
     background-color: #76adec;
     width: 1200px;
     height: 600px;
     position: relative;
     display: flex;
+    align-items: center;
 }
+.about-us {
+    font-family: tomorrow;
+    font-size: 27px;
+    padding: 5px;
+    color: #12001b;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 20px;
+}
+.contact-box {
+    background-color: #a802f8;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.title-3 {
+    font-family: "major mono display", sans-serif;
+    font-size: 70px;
+    color: #76adec;
+    text-transform: uppercase;
+}
+.discord {
+    font-family: play;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.discord-link {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: play;
+    margin-top: 20px;
+}
+
 footer {}
