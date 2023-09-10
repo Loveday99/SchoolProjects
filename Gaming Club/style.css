@@ -1,6 +1,6 @@
 html {
     background-color: black;
-
+    font-size: 16px;
 }
 
 body {
@@ -57,7 +57,7 @@ a:link {
 
 .title-1 {
     font-family: "major mono display", sans-serif;
-    font-size: 65px;
+    font-size: 4.0625rem;
     color: #a802f8;
     margin-bottom: 290px;
     position: absolute;
@@ -76,7 +76,7 @@ main {}
     padding: 30px 0px;
     font-family: play;
     text-transform: capitalize;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 .row-1 {
     display: grid;
@@ -199,12 +199,12 @@ main {}
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    background-image: url("resources/images/Neon-image-2");
+    background-image: url("resources/images/Neon-image-2.jpg");
     height: 1000px;
 }
 .title-2 {
     font-family: "major mono display", sans-serif;
-    font-size: 70px;
+    font-size: 4.375rem;
     color: #76adec;
     margin-bottom: 150px;
     z-index: 99;
@@ -221,7 +221,7 @@ main {}
 }
 .about-us {
     font-family: tomorrow;
-    font-size: 27px;
+    font-size: 1.6875rem;
     padding: 5px;
     color: #12001b;
 }
@@ -246,20 +246,29 @@ main {}
 }
 .title-3 {
     font-family: "major mono display", sans-serif;
-    font-size: 70px;
+    font-size: 4.375rem;
     color: #76adec;
     text-transform: uppercase;
 }
 .discord {
     font-family: play;
-    font-size: 30px;
+    font-size: 1.875rem;
     text-transform: uppercase;
 }
 .discord-link {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: play;
     margin-top: 20px;
 }
 
-footer {}
+@media only screen and (max-width:425px)
+{
+
+}
+
+@media only screen and (min-width:426px) and (max-width:768px)
+{
+
+}
+
